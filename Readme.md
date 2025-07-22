@@ -1,6 +1,6 @@
 # Kotlin Tutorial Documentation 2025
 
-[Learn Kotlin](https://github.com/udacity/KotlinTutorial)
+[Learn Kotlin](https://github.com/FebinAugustine/Kotlin-Tutorial-documentation)
 
 ## What is Kotlin
 
@@ -10,89 +10,74 @@ Kotlin is a programming language that is a modern take on Java. It is a statical
 
 ### Variables
 
-    #### Variable Declaration
-    #### Variable Types
-    #### Variable Initialization
+- Variables in Kotlin
+  - val
+  - var
+- Type Inference
+- Null Safety
+  - Non-nullable by Default
+  - Nullable Types
+  - Safe Call Operator (?.)
+  - Elvis Operator (?:)
+  - Non-null Asserted Call Operator (!!)
 
 ### Data Types
 
-    #### Primitive Data Types
-    #### Non-Primitive Data Types
-
-### Type Conversion
-
-    #### Type Casting
-    #### Type Coercion
-
-### Constants
-
-### String Templates
+- Numeric Types
+- Boolean Type
+- Character Type
+- String Type
+- Array Type
+- Collection Types
+- Type Conversions
+- Conclusion
 
 ### Operators
 
+- Assignment Operators
+- Arithmetic Operators
+- Increment and Decrement Operators
+- Comparison (Relational) Operators
+- Logical Operators
+- Bitwise Operators (Member Functions)
+- Range Operators
+- Membership Operators
+- Elvis Operator (?:)
+- Safe Call Operator (?.) and Non-null Asserted Call (!!)
+- Type Check and Cast Operators
+- Operator Overloading
+
 ### Control Flow
 
-- If-Else
-- When Expression
-
-### Loops
-
-- While Loops
-- Do-While Loops
-- For Loops
-- Nested Loops
-- Break and Continue
-- Labelled Loops
-- Range and Progression
+- Conditional Expressions (if and when)
+- Loop Constructs
+- Jump Expressions
 
 ### Functions:
 
-- Defining functions with fun.
-- Parameters and return types.
-- Unit functions.
-- Single-expression functions.
-- Default and named arguments.
-- Varargs (variable number of arguments).
+- Basic Function Declaration
+- Function Return Types
+- Single-Expression Functions
+- Function Parameters
+- Function Scope and Visibility
+- Extension Functions
+- Higher-Order Functions and Lambdas
+- Inline Functions
+- Tail-Recursive Functions (tailrec)
 
-### Arrays
-
-- Array Creation
-- Array Operations
-- Array Slicing
-- Array Iteration
-- Array Sorting
-- Array Searching
-- Array Conversion
-
-### Iterators
-
-- Collection Iterators
-- Range Iterators
-- Progression Iterators
-- Iterable Iterators
-- Iterator Extensions
-- Sequence Iterators
-- Iterator Conventions
-- Iterator Operations
-- Iterator Extension Functions
-- Iterator Extension Properties
-- Iterator Extension Methods
+## Phase 2: Object-Oriented Programming (OOP) in Kotlin - Structuring Your Code
 
 ### Object-Oriented Programming
 
 - Classes and Objects
   - Defining a Class
-  - Constructors
+  - Constructors- Primary and Secondary Constructor
   - Properties
   - Methods
+  - Creating objects (instances of classes).
+- Properties (mutable and immutable).
+- Initialization blocks (init).
   - Access Modifiers
-  - Data Classes
-  - Inner Classes
-  - Nested Classes
-  - Companion Objects
-  - Enums
-  - Sealed Classes
-    -Absract Classes
 - Interfaces
   - Defining an Interface
   - Implementing an Interface
@@ -104,6 +89,14 @@ Kotlin is a programming language that is a modern take on Java. It is a statical
   - Superclass and Subclass
   - Interfaces and Inheritance
   - Interfaces and Multiple Inheritance
+  - Data Classes
+  - Inner Classes
+  - Nested Classes
+  - Companion Objects
+  - Enums
+  - Sealed Classes
+    -Absract Classes
+  - Interfaces and Abstract Classes
 - Encapsulation
   - What is Encapsulation
   - Access Modifiers
